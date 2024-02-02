@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compound Interest</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>Interest Calculator</h1>
+
+    <form>
+      <label for="principal">Principal Amount:</label>
+      <input type="number" min="0" id="principal" />
+
+      <label for="rate">Interest Rate:</label>
+      <input type="number" min="0" id="rate" />
+
+      <label for="years">years:</label>
+      <input type="number" min="0" id="years" />
+
+      <div class="btns">
+        <button type="button" class="submit-btn">Submit</button>
+        <button type="button" class="clear-btn">Clear</button>
+      </div>
+
+      <p class="total">Total: <span class="total-amount">$0:00</span></p>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
